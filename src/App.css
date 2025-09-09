@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&amp;display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif !important;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.adminLayout_main {
+  width: 100%;
+  height: 100vh;
+}
+.adminLayout_sider {
+  background-color: #fff;
+  height: calc(100vh - 63px);
+  overflow: scroll;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.adminLayout_header {
+  display: flex;
+  align-items: center;
+  background: #ffff;
+  height: 63px;
+  padding: 0 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  z-index: 999;
+  width: 100%;
+  justify-content: space-between;
+}
+.ant-layout .ant-layout-sider {
+  background: #fff !important;
+}
+
+.adminLayout_content {
+  /* background-color: #f1f1f1; */
+  height: calc(100vh - 63px);
+  padding: 0px;
+  overflow: scroll;
+}
+.adminLayout_menu {
+  font-size: 0.85rem;
+  padding: 10px;
+}
+.adminLayout_menu .ant-menu-title-content {
+  margin-left: 10px;
+  padding: 0px;
+}
+.adminLayout_menu .ant-menu-title-content:hover {
+  margin-left: 10px;
+  padding: 0px;
+}
+.adminLayout_menu .ant-menu-item:hover .anticon,
+.adminLayout_menu .ant-menu-item-active .anticon,
+.adminLayout_menu .ant-menu-item-selected .anticon {
+  color: #90c966;
+}
+.pos-container {
+  padding: 24px;
+  background: #ffff;
+  min-height: 100vh;
+}
+
+.section-title {
+  margin-bottom: 16px;
+}
+
+.product-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  width: 100%;
+}
+
+.product-info h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #722ed1;
+  margin: 4px 0;
+}
+
+.product-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.stock {
+  color: #52c41a;
+  font-size: 12px;
+}
+
+.cart-card {
+  border-radius: 12px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.total-price {
+  color: #722ed1;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.checkout-btn {
+  background: #90c966;
+  border: none;
+  border-radius: 8px !important;
+}
+.checkout-btn:hover {
+  background: #90c966 !important;
+  border: none;
+  border-radius: 8px !important;
+}
+.qty-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.qty-value {
+  min-width: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+.add-button-head{
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+.save_button{
+   display: flex;
+  justify-content: end;
+}
